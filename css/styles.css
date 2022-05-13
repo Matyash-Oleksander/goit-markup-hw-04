@@ -302,6 +302,36 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
+/* <!--Постоянные клиенты--> */
+.klient-section-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+  margin-bottom: 50px;
+}
+
+.klient-section-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.klient-section-item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  /* margin-right: 30px; */
+}
+
+/* .klient-section-item:last-child {
+  margin-right: 0px;
+} */
+
 /* Футер */
 
 .footer {
